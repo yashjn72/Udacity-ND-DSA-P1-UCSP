@@ -17,7 +17,7 @@ codelist = []
 blrrcounter = 0
 for call in callnum: 
     if "(" in call: # to check if it is a fixed line or not
-        codelist.append(call[1:(call.index(")")-1)]) # To get area code 
+        codelist.append(call[1:(call.index(")"))]) # To get area code 
         if "(080)" in call:
             blrrcounter +=1    
     else: 

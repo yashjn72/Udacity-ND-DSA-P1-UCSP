@@ -2,5 +2,5 @@ Worst Case scenario Time Complexities:
 Task0 : O(n)		:	For last number it has to traverse till end of the list that is nth number.
 Task1 : O(n)		:	4 For loops in sequence with O(n) complexity
 Task2 : O(n)		:	traverse till end (nth value) of 2D list to get the 3rd column. 
-Task3 : O(n^3)		:	For loop if having O(n) and outer adn inner if loop is having O(n) so they will get multiplied O(n^3). 
+Task3 : O(nlogn)		:	For loop if having O(n) and outer adn inner if loop is having O(n) so they will get multiplied O(n^3). 
 Task4 : O(nlogn)	:	Sort is the most time consuming with O(nlogn) rest all are O(n) in sequence
