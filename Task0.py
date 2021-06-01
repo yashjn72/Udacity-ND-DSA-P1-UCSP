@@ -15,7 +15,7 @@ text = texts[0]
 call = calls[-1]
 
 print("First record of texts, " + text[0] + " texts " + text[1] + " at time " + text[2])
-print("Last record of calls, " + call[0] + " calls " + call[1] + " at time " + call[2])
+print("Last record of calls, " + call[0] + " calls " + call[1] + " at time " + call[2] + ", lasting " + call[3] + " seconds")
 """
 TASK 0:
 What is the first record of texts and what is the last record of calls?
