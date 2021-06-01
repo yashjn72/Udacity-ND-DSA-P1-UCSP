@@ -25,14 +25,13 @@ for call in callnum:
 
 callnumcount = len(callnum)
 
-uniquecodelistcount = list(set(codelist)) # to generate unique code list
-uniquecodelistcount.sort()
+uniquecodelistcount = sorted(set(codelist)) # to generate unique code list
 perblrcall = float(blrrcounter)*100/callnumcount # to get percentage of call received from banaglore in bangalore
 
 print("The numbers called by people in Bangalore have codes:")
 print(*uniquecodelistcount, sep = "\n")
 
-print("{0:.2f}".format(perblrcall) +"% percent of calls from fixed lines in Bangalore are calls)")
+print("{0:.2f}".format(perblrcall) +" percent of calls from fixed lines in Bangalore are calls to other fixed lines in Bangalore.")
 
 """
 TASK 3:

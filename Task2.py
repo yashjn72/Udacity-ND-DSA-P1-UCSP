@@ -15,7 +15,7 @@ callerdict =  dict.fromkeys([(call[0]) for call in calls] + [(call[1]) for call 
 
 for i in calls:
     callerdict[i[0]] += int(i[3])
-    callerdict[i[0]] += int(i[3])
+    callerdict[i[1]] += int(i[3])
 
 maxvalue = max(callerdict.items(), key=lambda k: k[1])
 
