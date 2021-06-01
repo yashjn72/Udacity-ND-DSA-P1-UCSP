@@ -14,7 +14,7 @@ with open('calls.csv', 'r') as f:
 # addeing 1st column and 2nd column of texts and calls list i.e. caller and receiver
 numberlist = [text[0] for text in texts] + [text[1] for text in texts] + [call[0] for call in calls] + [call[1] for call in calls]
 uniquenumlist = set(numberlist)
-print("There are " + len(uniquenumlist)+ " different telephone numbers in the records.")
+print("There are " + str(len(uniquenumlist))+ " different telephone numbers in the records.")
 
 
 #print(set([text[0] for text in texts] + [text[1] for text in texts] + [call[0] for call in calls] + [call[1] for call in calls]))
